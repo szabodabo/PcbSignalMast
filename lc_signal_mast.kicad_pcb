@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 564)
+    (drawings 565)
     (tracks 936)
     (zones 0)
     (modules 64)
@@ -18,7 +18,7 @@
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -2740,6 +2740,7 @@
     )
   )
 
+  (gr_line (start 132.2 64.475) (end 132.2 149.225) (layer Edge.Cuts) (width 0.0254))
   (gr_text "G  Y  R +5" (at 125.55 153.725) (layer B.SilkS) (tstamp 5C15826E)
     (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
   )
@@ -3403,7 +3404,7 @@
   (gr_line (start 30.6 149.225) (end 35.425 149.225) (layer Edge.Cuts) (width 0.0254))
   (gr_line (start 43.3 157.7) (end 30.6 157.7) (layer Edge.Cuts) (width 0.0254))
   (gr_line (start 43.3 149.225) (end 43.3 157.7) (layer Edge.Cuts) (width 0.0254))
-  (gr_text "Low Cost HO Signal Mast\nInvented by J. Plocher (spcoast.com)\nRevised by dakota, Nov 2018" (at 25.15 133 90) (layer F.SilkS) (tstamp 5C157BA0)
+  (gr_text "Low Cost HO Signal Mast v2\nInvented by J. Plocher (spcoast.com)\nRevised by dakota, Dec 2018" (at 25.15 133 90) (layer F.SilkS) (tstamp 5C157BA0)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text JLCJLCJLCJLC (at 21.75 68.925 90) (layer F.SilkS) (tstamp 5C157B9D)
