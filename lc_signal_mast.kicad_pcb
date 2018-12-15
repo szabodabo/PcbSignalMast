@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 68)
+    (drawings 74)
     (tracks 122)
     (zones 0)
     (modules 8)
@@ -17,7 +17,7 @@
     (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
-    (36 B.SilkS user)
+    (36 B.SilkS user hide)
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
@@ -444,6 +444,12 @@
     )
   )
 
+  (gr_line (start 32.65 152.75) (end 32.65 154.05) (layer F.SilkS) (width 0.2))
+  (gr_line (start 32.6 153.425) (end 33.25 153.425) (layer F.SilkS) (width 0.2))
+  (gr_line (start 31.675 153.425) (end 31.05 153.425) (layer F.SilkS) (width 0.2))
+  (gr_line (start 32.65 153.425) (end 31.725 152.775) (layer F.SilkS) (width 0.2))
+  (gr_line (start 31.675 154.05) (end 32.65 153.425) (layer F.SilkS) (width 0.2))
+  (gr_line (start 31.675 152.75) (end 31.675 154.05) (layer F.SilkS) (width 0.2))
   (gr_line (start 38.525 149.225) (end 38.525 149.15) (layer Edge.Cuts) (width 0.0254))
   (gr_line (start 43.3 149.225) (end 38.525 149.225) (layer Edge.Cuts) (width 0.0254))
   (gr_line (start 35.425 149.225) (end 35.425 149.15) (layer Edge.Cuts) (width 0.0254))
