@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:lc_signal_mast-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -25,9 +26,9 @@ F 3 "~" H 3100 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 2550 3300 1800
+	3300 2550 3300 2200
 Wire Wire Line
-	3400 2200 3400 1700
+	3400 2200 3400 2050
 Wire Wire Line
 	3400 1700 3300 1700
 Wire Wire Line
@@ -68,7 +69,7 @@ F 3 "~" H 4500 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 1500 5300 1500
+	3300 1500 3650 1500
 Wire Wire Line
 	5300 1500 5300 2200
 Wire Wire Line
@@ -110,9 +111,9 @@ F 3 "~" H 2950 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 4200 3150 3450
+	3150 4200 3150 4150
 Wire Wire Line
-	3250 3850 3250 3350
+	3250 3850 3250 3750
 Wire Wire Line
 	3250 3350 3150 3350
 Wire Wire Line
@@ -153,7 +154,7 @@ F 3 "~" H 4350 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 3150 5150 3150
+	3150 3150 3500 3150
 Wire Wire Line
 	5150 3150 5150 3850
 Wire Wire Line
@@ -178,9 +179,151 @@ YELLOW2
 Text Label 3400 4200 0    50   ~ 0
 GREEN2
 Wire Wire Line
-	3350 3500 4200 3500
-Wire Wire Line
 	3250 3850 4200 3850
 Wire Wire Line
 	3150 4200 4200 4200
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5C1593EC
+P 2400 1000
+F 0 "J7" H 2320 775 50  0000 C CNN
+F 1 "Conn_01x01" H 2320 866 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 2400 1000 50  0001 C CNN
+F 3 "~" H 2400 1000 50  0001 C CNN
+	1    2400 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J8
+U 1 1 5C159465
+P 2400 1400
+F 0 "J8" H 2320 1175 50  0000 C CNN
+F 1 "Conn_01x01" H 2320 1266 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 2400 1400 50  0001 C CNN
+F 3 "~" H 2400 1400 50  0001 C CNN
+	1    2400 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J9
+U 1 1 5C1594A9
+P 2400 1800
+F 0 "J9" H 2320 1575 50  0000 C CNN
+F 1 "Conn_01x01" H 2320 1666 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 2400 1800 50  0001 C CNN
+F 3 "~" H 2400 1800 50  0001 C CNN
+	1    2400 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J10
+U 1 1 5C1594D7
+P 2400 2200
+F 0 "J10" H 2320 1975 50  0000 C CNN
+F 1 "Conn_01x01" H 2320 2066 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 2400 2200 50  0001 C CNN
+F 3 "~" H 2400 2200 50  0001 C CNN
+	1    2400 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 2200 3300 2200
+Connection ~ 3300 2200
+Wire Wire Line
+	3300 2200 3300 1800
+Wire Wire Line
+	3400 2050 2800 2050
+Wire Wire Line
+	2800 2050 2800 1800
+Wire Wire Line
+	2800 1800 2600 1800
+Connection ~ 3400 2050
+Wire Wire Line
+	3400 2050 3400 1700
+Wire Wire Line
+	3500 1600 3500 1250
+Wire Wire Line
+	3500 1250 2750 1250
+Wire Wire Line
+	2750 1250 2750 1400
+Wire Wire Line
+	2750 1400 2600 1400
+Connection ~ 3500 1600
+Wire Wire Line
+	3650 1500 3650 1000
+Wire Wire Line
+	3650 1000 2600 1000
+Connection ~ 3650 1500
+Wire Wire Line
+	3650 1500 5300 1500
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5C15DECC
+P 2200 2950
+F 0 "J3" H 2120 2725 50  0000 C CNN
+F 1 "Conn_01x01" H 2120 2816 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 2200 2950 50  0001 C CNN
+F 3 "~" H 2200 2950 50  0001 C CNN
+	1    2200 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5C15DED2
+P 2200 3350
+F 0 "J4" H 2120 3125 50  0000 C CNN
+F 1 "Conn_01x01" H 2120 3216 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 2200 3350 50  0001 C CNN
+F 3 "~" H 2200 3350 50  0001 C CNN
+	1    2200 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5C15DED8
+P 2200 3750
+F 0 "J5" H 2120 3525 50  0000 C CNN
+F 1 "Conn_01x01" H 2120 3616 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 2200 3750 50  0001 C CNN
+F 3 "~" H 2200 3750 50  0001 C CNN
+	1    2200 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5C15DEDE
+P 2200 4150
+F 0 "J6" H 2120 3925 50  0000 C CNN
+F 1 "Conn_01x01" H 2120 4016 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 2200 4150 50  0001 C CNN
+F 3 "~" H 2200 4150 50  0001 C CNN
+	1    2200 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 4150 2400 4150
+Connection ~ 3150 4150
+Wire Wire Line
+	3150 4150 3150 3450
+Wire Wire Line
+	2400 3750 3250 3750
+Connection ~ 3250 3750
+Wire Wire Line
+	3250 3750 3250 3350
+Wire Wire Line
+	3350 3500 2500 3500
+Wire Wire Line
+	2500 3500 2500 3350
+Wire Wire Line
+	2500 3350 2400 3350
+Connection ~ 3350 3500
+Wire Wire Line
+	3500 3150 3500 2950
+Wire Wire Line
+	3500 2950 2400 2950
+Wire Wire Line
+	3350 3500 4200 3500
+Connection ~ 3500 3150
+Wire Wire Line
+	3500 3150 5150 3150
 $EndSCHEMATC
